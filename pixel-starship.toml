@@ -10,14 +10,14 @@
 # grapefruit="09"
 
 format = """
-[┌─\\(](55)$directory$git_branch$git_status[\\)](55) $cmd_duration$fill[\\(](55)$username$hostname[\\)](55)
-[└─\\[](55)$time[\\]-](55)$character"""
+[┌─\\(](33)$directory$git_branch$git_status[\\)](33) $cmd_duration$fill[\\(](33)$username$hostname[\\)](33)
+[└─\\[](33)$time[\\]-](33)$character"""
 
 # Inserts a blank line between shell prompts
 add_newline = true
 
 [character]
-success_symbol = "[>](55)"
+success_symbol = "[>](33)"
 error_symbol = "[>](red)"
 vicmd_symbol = "[<](green)"
 
@@ -41,7 +41,7 @@ format = '([$all_status$ahead_behind]($style))'
 
 [hostname]
 ssh_only = false
-style = "111"
+style = "50"
 format = "@[$hostname]($style)"
 disabled = false
 
