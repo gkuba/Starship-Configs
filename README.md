@@ -13,4 +13,6 @@ You can get starship here <https://starship.rs/>
 I like to have different color schemes or layouts for different machines to quickly tell which one I'm on.
 
 - starship - Purple Main Color
+![My Default Starship Config](/images/starship.webp)
 - pixel-starship - Blue Main Color
+![pixel Starship Config](/images/pixel-starship.webp)
