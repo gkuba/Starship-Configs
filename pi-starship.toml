@@ -6,27 +6,27 @@
 # iceblue="45"
 # turqoise="50"
 # smoothgreen="42"
-# darkpurple="57"
+# darkpurple="55"
 # grapefruit="09"
 
 format = """
-[┌─\\(](57)$directory$git_branch$git_status[\\)](57) $cmd_duration$fill[\\(](57)$username$hostname[\\)](57)
-[└─\\[](57)$time[\\]-](57)$character"""
+[┌─\\(](125)$directory$git_branch$git_status[\\)](125) $cmd_duration$fill[\\(](125)$username$hostname[\\)](125)
+[└─\\[](125)$time[\\]-](125)$character"""
 
 # Inserts a blank line between shell prompts
 add_newline = true
 
 [character]
-success_symbol = "[>](57)"
+success_symbol = "[>](125)"
 error_symbol = "[>](red)"
 vicmd_symbol = "[<](green)"
 
 [cmd_duration]
 min_time = 500
-format = "[$duration](42)"
+format = "[$duration](33)"
 
 [directory]
-style = "125"
+style = "33"
 format = "[$path]($style)[$read_only]($read_only_style)"
 disabled = false
 
@@ -41,7 +41,7 @@ format = '([$all_status$ahead_behind]($style))'
 
 [hostname]
 ssh_only = false
-style = "111"
+style = "56"
 format = "@[$hostname]($style)"
 disabled = false
 
@@ -51,12 +51,12 @@ diabled = true
 
 [time]
 use_12hr = true
-style = "42"
+style = "33"
 format = "[$time]($style)"
 disabled = false
 
 [username]
-style_user = "125"
+style_user = "111"
 style_root = "black bold"
 format = "[$user]($style)"
 disabled = false
