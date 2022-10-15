@@ -26,7 +26,7 @@ min_time = 500
 format = "[$duration](33)"
 
 [directory]
-style = "33"
+style = "42"
 format = "[$path]($style)[$read_only]($read_only_style)"
 disabled = false
 
@@ -56,7 +56,7 @@ format = "[$time]($style)"
 disabled = false
 
 [username]
-style_user = "111"
+style_user = "42"
 style_root = "black bold"
 format = "[$user]($style)"
 disabled = false
