@@ -23,7 +23,7 @@ curl -sS https://raw.githubusercontent.com/gkuba/Starship-Configs/main/starship.
 ![pixel Starship Config](/images/pixel-starship.webp)
 
 ```bash
-curl -sS https://raw.githubusercontent.com/gkuba/Starship-Configs/main/pi-starship.toml -o ~/.config/starship.toml
+curl -sS https://raw.githubusercontent.com/gkuba/Starship-Configs/main/pixel-starship.toml -o ~/.config/starship.toml
 ```
 
 - pi-starship - Magenta Main Color
