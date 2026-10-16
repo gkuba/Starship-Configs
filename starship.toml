@@ -26,7 +26,7 @@ $fill\
 [](purple)\
 $username\
 [](fg:purple bg:cyan)\
-[@](bg:cyan fg:crust)\
+[ @](bg:cyan fg:crust)\
 [](fg:cyan bg:pink)\
 $hostname\
 [ ](fg:pink)\
@@ -77,7 +77,7 @@ format = '[$user]($style)'
 [hostname]
 ssh_only = false
 style = "bg:pink fg:crust"
-format = '[$hostname]($style)'
+format = '[ $hostname]($style)'
 
 [directory]
 style = "bg:cyan fg:crust"
@@ -132,13 +132,14 @@ format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 [time]
 disabled = false
 time_format = "%_I:%M %p"
-style = "bg:comment"
-format = '[[  $time ](fg:crust bg:purple)]($style)'
+style = "bg:purple fg:crust"
+format = '[  $time ]($style)'
 
 [cmd_duration]
-show_milliseconds = false
-format = "  $duration"
-style = "bg:purple fg:crust"
+min_time = 1000
+show_milliseconds = true
+format = '[  $duration ]($style)'
+style = "fg:comment"
 disabled = false
 
 [character]
